@@ -1,0 +1,386 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style-type: none;
+  text-decoration: none;
+}
+
+body {
+  font-family: "Kanit";
+  text-decoration: none;
+}
+
+.hero-section {
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/imghero.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  color: rgb(252, 251, 249);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center h2;
+}
+.hero-section .hero-parrafo {
+  font-size: 50px;
+  margin-top: 10px;
+}
+.hero-section .segundo-parrafo {
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 20px;
+}
+.hero-section .hero-imagen img {
+  width: 200px;
+  height: 200px;
+}
+
+/* SECTION PRODUCTOS DESTACADOS */
+h2 {
+  text-decoration: underline;
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin-bottom: 0;
+}
+
+.descubrir-section {
+  text-align: center;
+  color: aliceblue;
+  background-color: black;
+  text-decoration: none;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 0;
+  padding-top: 0;
+}
+.descubrir-section .card-productos {
+  margin: 10px;
+  width: 300px;
+  height: 420px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+.descubrir-section .card-productos .titulos-descubrir {
+  text-decoration: underline;
+}
+.descubrir-section .card-productos img {
+  width: 180px;
+  height: 180px;
+}
+.descubrir-section .card-productos p {
+  text-align: center;
+}
+.descubrir-section .card-productos .ver-mas {
+  margin: 10px;
+  text-decoration: none;
+  color: darkgoldenrod;
+}
+
+/* SECTION CATEGORIAS */
+.nuestras-categorias {
+  color: white;
+  text-align: center;
+  width: 100%;
+  height: 500px;
+  background-image: url("../img/imgcategorias.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-decoration: none;
+}
+.nuestras-categorias h2 {
+  text-decoration: underline;
+}
+.nuestras-categorias .navegacion-categorias ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  margin-top: 30px;
+  text-decoration: none;
+}
+.nuestras-categorias .navegacion-categorias ul li a {
+  color: white;
+}
+.nuestras-categorias .navegacion-categorias ul li .imagen-categorias {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 10px;
+}
+
+/* SECTION DESCUBRIR */
+h1 {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  text-decoration: underline;
+  background-color: black;
+  margin-bottom: 0;
+}
+
+.parrafos-descubrirsection {
+  text-align: center;
+  background-color: black;
+  color: white;
+  height: 150px;
+  margin-top: 0;
+}
+
+.descubrir-valorados {
+  background-color: black;
+  color: white;
+  display: grid;
+}
+.descubrir-valorados div {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  grid-template-rows: 1fr;
+  gap: 10px;
+  place-items: center;
+  align-items: center;
+}
+.descubrir-valorados div h2 {
+  grid-column: 2;
+  /* el título ocupa la segunda columna */
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 30px;
+  margin-top: 15px;
+}
+.descubrir-valorados div img {
+  grid-column: 1;
+  /* la imagen ocupa la primera columna */
+  width: 200px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+.descubrir-valorados div p {
+  grid-column: 2;
+  text-align: center;
+}
+.descubrir-valorados div button {
+  grid-column: 1;
+  grid-row: 2;
+  margin-top: 10px;
+}
+
+/* SECTION PRODUCTOS */
+.section-productos {
+  background-color: yellowgreen;
+  color: black;
+}
+.section-productos .botones a {
+  text-decoration: none;
+}
+.section-productos h2 .compra {
+  background-color: black;
+  color: white;
+}
+/* SECTION CATEGORIAS */
+.categoria-mouse p {
+  color: black;
+}
+.categoria-mouse ul li {
+  color: darkgoldenrod;
+  background-color: black;
+}
+.categoria-mouse ul li p {
+  color: white;
+  background-color: black;
+}
+
+.categoria-mousepad p {
+  color: black;
+}
+.categoria-mousepad ul li {
+  color: darkgoldenrod;
+  background-color: black;
+}
+.categoria-mousepad ul li p {
+  color: white;
+  background-color: black;
+}
+
+.categoria-teclados p {
+  color: black;
+}
+.categoria-teclados ul li {
+  color: darkgoldenrod;
+  background-color: black;
+}
+.categoria-teclados ul li p {
+  color: white;
+  background-color: black;
+}
+
+.categoria-auriculares p {
+  color: black;
+}
+.categoria-auriculares ul li {
+  color: darkgoldenrod;
+  background-color: black;
+}
+.categoria-auriculares ul li p {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+
+/* SECTION CONTACTO */
+.section-contacto {
+  background-color: yellowgreen;
+  color: black;
+}
+.section-contacto p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.section-formulario {
+  background-color: black;
+  color: white;
+  height: 200px;
+  margin-bottom: 0;
+}
+.section-ayuda {
+  background-color: black;
+  color: white;
+  margin-top: 0;
+  height: 150px;
+}
+/* FOOTER */
+footer {
+  background-color: rgb(107, 205, 50);
+  width: 100%;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: center;
+}
+footer .items-grid {
+  width: 200px;
+  height: 200px;
+}
+footer .items-grid h3 {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  font-size: 20px;
+  text-decoration: underline;
+  color: white;
+}
+footer .items-grid a {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  font-size: 15px;
+  text-decoration: none;
+  color: white;
+}
+footer .items-grid a img {
+  margin-left: 10px;
+  width: 20px;
+  height: 20px;
+}
+footer .icono-wpp {
+  width: 60px;
+  height: 60px;
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+}
+
+@media screen and (max-width: 1010px) {
+  .nuestras-categorias {
+    height: auto;
+  }
+  .nuestras-categorias ul {
+    flex-direction: column;
+    font-size: 15px;
+    margin: 0;
+  }
+  .navegacion-categorias .imagen-categorias {
+    width: 83px;
+    height: 83px;
+    margin: 0px;
+  }
+}
+@media screen and (max-width: 957px) {
+  .descubrir-section {
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 820px) {
+  header {
+    position: static;
+  }
+  header nav ul {
+    flex-direction: column;
+  }
+  header nav ul li a {
+    margin: 0;
+    text-align: center;
+  }
+}
+@media screen and (max-width: 755px) {
+  footer {
+    flex-direction: column;
+    height: auto;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+  }
+  .items-grid a {
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding: 0;
+  }
+  .items-grid h3 {
+    flex-direction: column;
+    margin-bottom: 0px;
+    padding: 0;
+  }
+}
+@media screen and (max-width: 676px) {
+  header {
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 635px) {
+  .hero-parrafo {
+    margin-top: 0;
+    font-size: 30px;
+  }
+  .segundo-parrafo {
+    font-size: 15px;
+    margin: 0;
+  }
+  .hero-section .hero-imagen img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+  }
+}
+
+/*# sourceMappingURL=estilos.css.map */
