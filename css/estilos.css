@@ -36,6 +36,8 @@ body {
   margin-left: 10px;
   margin-top: 10px;
   font-size: 20px;
+  color: rgb(5, 130, 202);
+  background-color: black;
 }
 .hero-section .hero-imagen img {
   width: 200px;
@@ -115,10 +117,10 @@ h2 {
   margin-top: 30px;
   text-decoration: none;
 }
-.nuestras-categorias .navegacion-categorias ul li a {
+.nuestras-categorias .navegacion-categorias ul a {
   color: white;
 }
-.nuestras-categorias .navegacion-categorias ul li .imagen-categorias {
+.nuestras-categorias .navegacion-categorias ul .imagen-categorias {
   width: 250px;
   height: 250px;
   display: flex;
@@ -171,101 +173,19 @@ h1 {
   height: 200px;
   margin-bottom: 10px;
 }
-.descubrir-valorados div p {
-  grid-column: 2;
-  text-align: center;
-}
 .descubrir-valorados div button {
   grid-column: 1;
   grid-row: 2;
   margin-top: 10px;
 }
-
-/* SECTION PRODUCTOS */
-.section-productos {
-  background-color: yellowgreen;
-  color: black;
-}
-.section-productos .botones a {
-  text-decoration: none;
-}
-.section-productos h2 .compra {
-  background-color: black;
-  color: white;
-}
-/* SECTION CATEGORIAS */
-.categoria-mouse p {
-  color: black;
-}
-.categoria-mouse ul li {
-  color: darkgoldenrod;
-  background-color: black;
-}
-.categoria-mouse ul li p {
-  color: white;
-  background-color: black;
+.descubrir-valorados div p {
+  grid-column: 2;
+  text-align: center;
 }
 
-.categoria-mousepad p {
-  color: black;
-}
-.categoria-mousepad ul li {
-  color: darkgoldenrod;
-  background-color: black;
-}
-.categoria-mousepad ul li p {
-  color: white;
-  background-color: black;
-}
-
-.categoria-teclados p {
-  color: black;
-}
-.categoria-teclados ul li {
-  color: darkgoldenrod;
-  background-color: black;
-}
-.categoria-teclados ul li p {
-  color: white;
-  background-color: black;
-}
-
-.categoria-auriculares p {
-  color: black;
-}
-.categoria-auriculares ul li {
-  color: darkgoldenrod;
-  background-color: black;
-}
-.categoria-auriculares ul li p {
-  color: rgb(255, 255, 255);
-  background-color: black;
-}
-
-/* SECTION CONTACTO */
-.section-contacto {
-  background-color: yellowgreen;
-  color: black;
-}
-.section-contacto p {
-  margin-top: 10px;
-  margin-bottom: 0;
-}
-.section-formulario {
-  background-color: black;
-  color: white;
-  height: 200px;
-  margin-bottom: 0;
-}
-.section-ayuda {
-  background-color: black;
-  color: white;
-  margin-top: 0;
-  height: 150px;
-}
 /* FOOTER */
 footer {
-  background-color: rgb(107, 205, 50);
+  background-color: rgb(5, 130, 202);
   width: 100%;
   height: 300px;
   display: flex;
@@ -319,7 +239,7 @@ footer .icono-wpp {
     font-size: 15px;
     margin: 0;
   }
-  .navegacion-categorias .imagen-categorias {
+  .nuestras-categorias .navegacion-categorias .imagen-categorias {
     width: 83px;
     height: 83px;
     margin: 0px;

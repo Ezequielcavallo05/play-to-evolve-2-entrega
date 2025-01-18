@@ -444,7 +444,7 @@ h1{
   margin-top: 0;
   
 }
-/* CSS productos html */
+
 
 .descubrir-valorados{
 background-color: black;
@@ -518,106 +518,351 @@ display: grid;
 }
 
 /* CSS categorias html*/
-
-.categoria-mouse p {
-color: black;
-}
-
-.categoria-mouse ul li{
-  color: darkgoldenrod;
-  background-color: black;
-}
-.categoria-mouse ul li p{
-  color: white;
-  background-color: black;
-
-}
-
-
-.categoria-mousepad p{
+p{
   color: black;
 }
-
-.categoria-mousepad ul li{
-  color: darkgoldenrod;
-  background-color: black;
-}
-.categoria-mousepad ul li p{
-  color: white;
-  background-color: black;
+h2, h3 {
+  color: #FFFFFF; /* Blanco */
 }
 
-
-.categoria-teclados p{
-  color: black;
-}
-.categoria-teclados ul li{
-  color: darkgoldenrod;
-  background-color: black;
-}
-.categoria-teclados ul li p{
-  color: white;
-  background-color: black;
-}
-
-
-.categoria-auriculares p{
-  color: black;
+.categoria-mouse, .categoria-teclados, .categoria-mousepad, .categoria-auriculares {
+  background-color: #00a5f8; /* Color principal */
+  margin: 0; 
+  padding: 0; 
+  width: 100%; 
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  margin-top: 10px;
+  
 }
 
-.categoria-auriculares ul li{
-  color: darkgoldenrod;
-  background-color: black;
+.categoria-imagen {
+  width: 30%;
+  float: left;
+  margin-right: 20px;
+  
 }
 
-.categoria-auriculares ul li p{
-  color: rgb(255, 255, 255);
-  background-color: black;
+.categoria-info {
+  float: right;
+  width: 65%;
+  margin-top: 10px;
+  background-color: #006494; /* Color de fondo para la información */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
 }
 
+.caracteristicas-producto {
+  clear: both;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 1fr;
+  gap: 20px;
+  background-color: #0582CA; /* Color de fondo para las características */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+}
+
+.columna-1, .columna-2, .columna-3, .columna-4 {
+  background-color: #00A6FB; /* Color de fondo para las columnas */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+
+.botones {
+  clear: both;
+  position: relative;
+  top: 80px;
+  text-align: center;
+  padding: 20px;
+  border-radius: 10px;
+
+}
+/*Media Queries*/
+
+@media (max-width: 745px) {
+  .caracteristicas-producto {
+    grid-template-columns: 1fr; /* Una columna */
+  }
+  .columna-1, .columna-2, .columna-3, .columna-4 {
+    margin-bottom: 20px; /* Espacio entre columnas */
+  }
+  .categoria-imagen, .categoria-info {
+    width: 100%; /* Ancho completo */
+    float: none; /* No flotar */
+    margin-bottom: 20px; /* Espacio entre elementos */
+  }
+}
 
 /*CSS Contacto html*/
 
 
-.section-contacto{
-  background-color: yellowgreen;
-  color: black;
+section {
+  padding: 50px;
+  
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para la primera sección */
+.section-contacto {
+  background-color: #051923;
+  color: #00A6FB;
+}
+
+/* Estilos para la segunda sección */
+.section-formulario {
+  background-color: #0582CA;
+  color: #ffffff;
+}
+
+/* Estilos para las imágenes */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  margin: 10px;
+}
+
+li img {
+  width: 200px;
+  height: 200px;
   
 }
 
-.section-contacto p{
-  margin-top: 10px;
-  margin-bottom: 0;
+/* Estilos para el formulario */
+.form-group {
+  margin-bottom: 10px;
 }
 
-.section-formulario{
-  background-color:black;
-  color:white ;
-  height: 200px;
-  margin-bottom: 0;
+.form-control {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #000000;
 }
 
-.section-ayuda{
-  background-color: black;
-  color: white;
-  margin-top: 0;
-  height: 150px;
+.btn-primary {
+  background-color: #003554;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.btn-primary:hover {
+  background-color: #051923;
+}
+
+/* Media Queries Contacto*/
+@media (max-width: 1070px) {
+  ul {
+    flex-direction: column;
+    align-items: center;
+  }
+  li {
+    margin: 10px 0;
+  }
+  li img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 
 /* CSS Productos html*/
 
 .section-productos{
-  background-color: yellowgreen;
-  color: black;
+  background-color: #051923;
+  color: #00A6FB;
 }
 
 .section-productos .botones a {
   text-decoration: none;
-
+  color: #0582CA;
 }
 
 .section-productos .compra{
-  background-color: black;
-  color: white;
+  background-color: #003554;
+  color: #FFFFFF;
+}
+
+/* Estilos generales */
+
+.contenido {
+  max-width: 1200px;
+  padding: 20px;
+  background-color: #051923;
+  color: #00A6FB;
+}
+
+.carousel-inner img {
+  width: 100%;
+  height: 250px;
+
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(100%);
+  background-color: #0582CA;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  width: 5%;
+  background-color: #051923;
+}
+
+/* Estilos para los títulos y párrafos */
+
+h2 {
+  margin-top: 20px;
+  color: #ffffff;
+  text-align: center;
+}
+
+p {
+  margin-bottom: 20px;
+  color: #0582CA;
+  text-align: center;
+}
+
+/* Estilos para los botones */
+
+.botones {
+  margin-top: 20px;
+}
+
+.boton {
+  background-color: #006494;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.boton:hover {
+  background-color: #003554;
+}
+
+/* Estilos para los carruseles */
+
+#carouselAsus,
+#carouselCorsair,
+#carouselRedragon,
+#carouselLogitech {
+  width: 50%;
+  height: 250px;
+  margin: 0 auto;
+  background-color: #051923;
+}
+
+.combos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.combo {
+  flex-basis: 45%;
+  margin: 20px;
+  align-items: center;
+}
+
+.combo img {
+  width: 250px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.combo h3 {
+  color: #00A6FB;
+  margin-bottom: 10px;
+}
+
+.combo p {
+  color: #0582CA;
+  margin-bottom: 20px;
+}
+
+.combo .btn-group {
+  float: right;
+}
+
+.combo .btn-group .btn {
+  background-color: #006494;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.combo .btn-group .btn:hover {
+  background-color: #003554;
+}
+
+.combo .btn-outline-info {
+  background-color: #003554;
+  color: #FFFFFF;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.combo .btn-outline-info:hover {
+  background-color: #051923;
+}
+
+/* Medias queries*/
+
+@media (max-width: 720px) {
+  .carousel-inner img {
+    width: 150px;
+    height: 150px;
+  }
+  .carousel-control-prev,
+  .carousel-control-next {
+    width: 20px;
+    height: 20px;
+    top: 50%; /* centra verticalmente */
+    transform: translateY(-50%); /* ajusta la posición vertical */
+  }
+  .carousel-control-prev-icon,
+  .carousel-control-next-icon {
+    font-size: 10px;
+  }
+}
+
+
+
+@media (max-width: 420px) {
+  .combos {
+    flex-direction: column;
+    align-items: center;
+  }
+  .combo {
+    flex-basis: 100%;
+    margin: 20px 0;
+    max-width: 300px; /* ajusta el ancho máximo según sea necesario */
+  }
 }
