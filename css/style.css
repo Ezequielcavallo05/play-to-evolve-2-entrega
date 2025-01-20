@@ -560,7 +560,7 @@ h2, h3 {
   grid-template-columns: repeat(2, 1fr);
   grid-auto-rows: 1fr;
   gap: 20px;
-  background-color: #0582CA; /* Color de fondo para las características */
+  background-color:#051923; /* Color de fondo para las características */
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0px 0px 10px rgba(0,0,0,0.2);
@@ -617,7 +617,7 @@ section {
 
 /* Estilos para la segunda sección */
 .section-formulario {
-  background-color: #0582CA;
+  background-color: #000000;
   color: #ffffff;
 }
 
