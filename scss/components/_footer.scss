@@ -39,6 +39,10 @@ footer {
                 margin-left: 10px;
                 width: 20px;
                 height: 20px;
+                transition: transform 0.3s ease-in-out; /* Transición suave para la rotación */
+            }
+            img:hover {
+                transform: rotate(15deg); /* Rota la imagen 15 grados */
             }
 
         }

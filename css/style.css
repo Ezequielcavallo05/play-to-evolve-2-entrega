@@ -302,7 +302,14 @@ height:200px;
 /* Media Quires */
 @media screen and (max-width:1010px){
   .nuestras-categorias{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
     height: auto;
+    
+    
+    
   }
   .nuestras-categorias ul {
     flex-direction: column;
@@ -605,7 +612,6 @@ h2, h3 {
 
 section {
   padding: 50px;
-  
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
