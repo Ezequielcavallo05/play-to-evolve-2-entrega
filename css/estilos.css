@@ -78,7 +78,7 @@ body {
 }
 
 .btn-outline-success:hover {
-  background-color: rgb(115, 255, 0);
+  background-color: rgb(5, 130, 202);
   border: 1px solid rgb(5, 5, 5);
 }
 
@@ -95,13 +95,13 @@ h2 {
   text-decoration: underline;
   background-color: black;
   text-align: center;
-  color: white;
+  color: rgb(252, 251, 249);
   margin-bottom: 0;
 }
 
 .descubrir-section {
   text-align: center;
-  color: aliceblue;
+  color: rgb(252, 251, 249);
   background-color: black;
   text-decoration: none;
   width: 100%;
@@ -145,7 +145,7 @@ h2 {
 
 /* SECTION CATEGORIAS */
 .nuestras-categorias {
-  color: white;
+  color: rgb(252, 251, 249);
   text-align: center;
   width: 100%;
   height: auto;
@@ -178,7 +178,7 @@ h2 {
   text-decoration: none;
 }
 .nuestras-categorias .navegacion-categorias ul a {
-  color: white;
+  color: rgb(252, 251, 249);
 }
 .nuestras-categorias .navegacion-categorias ul .imagen-categorias {
   width: 200px;
@@ -196,7 +196,7 @@ section {
 
 h1 {
   text-align: center;
-  color: rgb(255, 255, 255);
+  color: rgb(252, 251, 249);
   text-decoration: underline;
   background-color: black;
   margin-bottom: 0;
@@ -205,14 +205,14 @@ h1 {
 .parrafos-descubrirsection {
   text-align: center;
   background-color: black;
-  color: white;
+  color: rgb(252, 251, 249);
   height: 150px;
   margin-top: 0;
 }
 
 .descubrir-valorados {
   background-color: black;
-  color: white;
+  color: rgb(252, 251, 249);
   display: grid;
   width: auto;
 }
